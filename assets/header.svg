@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">LEQAZ — идеи, код, результат</title>
+  <desc id="desc">Тёмный фон, бирюзовые и золотые акценты. Разработка, практика и новые идеи.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c2f"/><stop offset="1" stop-color="#18283a"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#56e0cf"/><stop offset="1" stop-color="#96c6ff"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#91b4cc" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <path d="M876 0h300a24 24 0 0 1 24 24v292a24 24 0 0 1-24 24H876z" fill="#56e0cf" opacity=".025"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".5">
+    <rect x="908" y="78" width="164" height="164" rx="27" transform="rotate(12 990 160)"/>
+    <rect x="932" y="102" width="116" height="116" rx="21" transform="rotate(-12 990 160)"/>
+  </g>
+  <path d="m972 140-20 20 20 20m36-40 20 20-20 20m-16-48-12 56" fill="none" stroke="#edce92" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="64" y="67" width="44" height="4" rx="2" fill="#56e0cf"/>
+  <text x="64" y="160" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="76" letter-spacing="3" fill="#f4f8fc">LEQAZ<tspan fill="#56e0cf">.</tspan></text>
+  <text x="67" y="217" font-family="Segoe UI,Arial,sans-serif" font-size="28" fill="#d1dfed">Идеи → код → результат</text>
+  <text x="67" y="277" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2" fill="#9aafc5">РАЗРАБОТКА / ПРАКТИКА / НОВЫЕ ИДЕИ</text>
+</svg>
